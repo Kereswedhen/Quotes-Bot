@@ -1,10 +1,23 @@
 const { Client, Events, GatewayIntentBits } = require('discord.js');
 const { token } = require('./config.json');
 
-const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages] });
+const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.GuildVoiceStates] });
+const targetMoveChannel = '985273253360726017';
+const solitaryConfinement = '1322320398603391059';
+const Alex = '1052255855518695554';
 
 client.once(Events.ClientReady, (readyClient) => {
 	console.log(`Ready! Logged in as ${readyClient.user.tag}`);
+});
+
+
+
+client.on('voiceStateUpdate', (oldState, newState) => {
+  if (newState.channelId && newState.channelId !== targetMoveChannel, solitaryConfinement) {
+    if (newState.member.id === Alex) {
+		newState.member.voice.setChannel(targetMoveChannel)
+		}
+	}
 });
 
 client.on(Events.MessageCreate, async (message) => {

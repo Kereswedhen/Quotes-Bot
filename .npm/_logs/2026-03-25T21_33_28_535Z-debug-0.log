@@ -1,0 +1,303 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@11.12.0
+2 info using node@v22.22.1
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/container/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm install discord.js
+7 verbose argv "install" "discord.js"
+8 verbose logfile logs-max:10 dir:/home/container/.npm/_logs/2026-03-25T21_33_28_535Z-
+9 verbose logfile /home/container/.npm/_logs/2026-03-25T21_33_28_535Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:321388544 maxSize:80347136 maxEntrySize:40173568
+13 silly idealTree buildDeps
+14 silly fetch manifest discord.js@^14.25.1
+15 silly packumentCache full:https://registry.npmjs.org/discord.js cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/discord.js 890ms (cache revalidated)
+17 silly packumentCache full:https://registry.npmjs.org/discord.js set size:8542715 disposed:false
+18 silly placeDep ROOT discord.js@14.25.1 REPLACE for: quotes-bot@1.0.0 want: ^14.25.1
+19 silly reify moves {}
+20 silly audit bulk request {
+20 silly audit   '@discordjs/builders': [ '1.13.0' ],
+20 silly audit   '@discordjs/collection': [ '1.5.3', '2.1.1' ],
+20 silly audit   '@discordjs/formatters': [ '0.6.2' ],
+20 silly audit   '@discordjs/rest': [ '2.6.0' ],
+20 silly audit   '@discordjs/util': [ '1.2.0' ],
+20 silly audit   '@discordjs/ws': [ '1.2.3' ],
+20 silly audit   '@eslint-community/eslint-utils': [ '4.9.0' ],
+20 silly audit   'eslint-visitor-keys': [ '3.4.3', '4.2.1' ],
+20 silly audit   '@eslint-community/regexpp': [ '4.12.2' ],
+20 silly audit   '@eslint/config-array': [ '0.21.1' ],
+20 silly audit   '@eslint/config-helpers': [ '0.4.2' ],
+20 silly audit   '@eslint/core': [ '0.17.0' ],
+20 silly audit   '@eslint/eslintrc': [ '3.3.3' ],
+20 silly audit   '@eslint/js': [ '9.39.1' ],
+20 silly audit   '@eslint/object-schema': [ '2.1.7' ],
+20 silly audit   '@eslint/plugin-kit': [ '0.4.1' ],
+20 silly audit   '@humanfs/core': [ '0.19.1' ],
+20 silly audit   '@humanfs/node': [ '0.16.7' ],
+20 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+20 silly audit   '@humanwhocodes/retry': [ '0.4.3' ],
+20 silly audit   '@sapphire/async-queue': [ '1.5.5' ],
+20 silly audit   '@sapphire/shapeshift': [ '4.0.0' ],
+20 silly audit   '@sapphire/snowflake': [ '3.5.3' ],
+20 silly audit   '@types/estree': [ '1.0.8' ],
+20 silly audit   '@types/json-schema': [ '7.0.15' ],
+20 silly audit   '@types/node': [ '24.10.1' ],
+20 silly audit   '@types/ws': [ '8.18.1' ],
+20 silly audit   '@vladfrangu/async_event_emitter': [ '2.4.7' ],
+20 silly audit   acorn: [ '8.15.0' ],
+20 silly audit   'acorn-jsx': [ '5.3.2' ],
+20 silly audit   ajv: [ '6.12.6' ],
+20 silly audit   'ansi-styles': [ '4.3.0' ],
+20 silly audit   argparse: [ '2.0.1' ],
+20 silly audit   'balanced-match': [ '1.0.2' ],
+20 silly audit   'brace-expansion': [ '1.1.12' ],
+20 silly audit   callsites: [ '3.1.0' ],
+20 silly audit   chalk: [ '4.1.2' ],
+20 silly audit   'color-convert': [ '2.0.1' ],
+20 silly audit   'color-name': [ '1.1.4' ],
+20 silly audit   'concat-map': [ '0.0.1' ],
+20 silly audit   'cross-spawn': [ '7.0.6' ],
+20 silly audit   debug: [ '4.4.3' ],
+20 silly audit   'deep-is': [ '0.1.4' ],
+20 silly audit   'discord-api-types': [ '0.38.35' ],
+20 silly audit   'escape-string-regexp': [ '4.0.0' ],
+20 silly audit   eslint: [ '9.39.1' ],
+20 silly audit   'eslint-scope': [ '8.4.0' ],
+20 silly audit   espree: [ '10.4.0' ],
+20 silly audit   esquery: [ '1.6.0' ],
+20 silly audit   esrecurse: [ '4.3.0' ],
+20 silly audit   estraverse: [ '5.3.0' ],
+20 silly audit   esutils: [ '2.0.3' ],
+20 silly audit   'fast-deep-equal': [ '3.1.3' ],
+20 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+20 silly audit   'fast-levenshtein': [ '2.0.6' ],
+20 silly audit   'file-entry-cache': [ '8.0.0' ],
+20 silly audit   'find-up': [ '5.0.0' ],
+20 silly audit   'flat-cache': [ '4.0.1' ],
+20 silly audit   flatted: [ '3.3.3' ],
+20 silly audit   'glob-parent': [ '6.0.2' ],
+20 silly audit   globals: [ '14.0.0' ],
+20 silly audit   'has-flag': [ '4.0.0' ],
+20 silly audit   ignore: [ '5.3.2' ],
+20 silly audit   'import-fresh': [ '3.3.1' ],
+20 silly audit   imurmurhash: [ '0.1.4' ],
+20 silly audit   'is-extglob': [ '2.1.1' ],
+20 silly audit   'is-glob': [ '4.0.3' ],
+20 silly audit   isexe: [ '2.0.0' ],
+20 silly audit   'js-yaml': [ '4.1.1' ],
+20 silly audit   'json-buffer': [ '3.0.1' ],
+20 silly audit   'json-schema-traverse': [ '0.4.1' ],
+20 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+20 silly audit   keyv: [ '4.5.4' ],
+20 silly audit   levn: [ '0.4.1' ],
+20 silly audit   'locate-path': [ '6.0.0' ],
+20 silly audit   lodash: [ '4.17.21' ],
+20 silly audit   'lodash.merge': [ '4.6.2' ],
+20 silly audit   'lodash.snakecase': [ '4.1.1' ],
+20 silly audit   'magic-bytes.js': [ '1.12.1' ],
+20 silly audit   minimatch: [ '3.1.2' ],
+20 silly audit   ms: [ '2.1.3' ],
+20 silly audit   'natural-compare': [ '1.4.0' ],
+20 silly audit   optionator: [ '0.9.4' ],
+20 silly audit   'p-limit': [ '3.1.0' ],
+20 silly audit   'p-locate': [ '5.0.0' ],
+20 silly audit   'parent-module': [ '1.0.1' ],
+20 silly audit   'path-exists': [ '4.0.0' ],
+20 silly audit   'path-key': [ '3.1.1' ],
+20 silly audit   'prelude-ls': [ '1.2.1' ],
+20 silly audit   punycode: [ '2.3.1' ],
+20 silly audit   'resolve-from': [ '4.0.0' ],
+20 silly audit   'shebang-command': [ '2.0.0' ],
+20 silly audit   'shebang-regex': [ '3.0.0' ],
+20 silly audit   'strip-json-comments': [ '3.1.1' ],
+20 silly audit   'supports-color': [ '7.2.0' ],
+20 silly audit   'ts-mixer': [ '6.0.4' ],
+20 silly audit   tslib: [ '2.8.1' ],
+20 silly audit   'type-check': [ '0.4.0' ],
+20 silly audit   undici: [ '6.21.3' ],
+20 silly audit   'undici-types': [ '7.16.0' ],
+20 silly audit   'uri-js': [ '4.4.1' ],
+20 silly audit   which: [ '2.0.2' ],
+20 silly audit   'word-wrap': [ '1.2.5' ],
+20 silly audit   ws: [ '8.18.3' ],
+20 silly audit   'yocto-queue': [ '0.1.0' ],
+20 silly audit   'discord.js': [ '14.25.1' ]
+20 silly audit }
+21 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 452ms
+22 silly audit report {
+22 silly audit report   ajv: [
+22 silly audit report     {
+22 silly audit report       id: 1113714,
+22 silly audit report       url: 'https://github.com/advisories/GHSA-2g4f-4pwh-qvx6',
+22 silly audit report       title: 'ajv has ReDoS when using `$data` option',
+22 silly audit report       severity: 'moderate',
+22 silly audit report       vulnerable_versions: '<6.14.0',
+22 silly audit report       cwe: [Array],
+22 silly audit report       cvss: [Object]
+22 silly audit report     }
+22 silly audit report   ],
+22 silly audit report   flatted: [
+22 silly audit report     {
+22 silly audit report       id: 1114526,
+22 silly audit report       url: 'https://github.com/advisories/GHSA-25h7-pfq9-p65f',
+22 silly audit report       title: 'flatted vulnerable to unbounded recursion DoS in parse() revive phase',
+22 silly audit report       severity: 'high',
+22 silly audit report       vulnerable_versions: '<3.4.0',
+22 silly audit report       cwe: [Array],
+22 silly audit report       cvss: [Object]
+22 silly audit report     },
+22 silly audit report     {
+22 silly audit report       id: 1115357,
+22 silly audit report       url: 'https://github.com/advisories/GHSA-rf6f-7fwh-wjgh',
+22 silly audit report       title: 'Prototype Pollution via parse() in NodeJS flatted',
+22 silly audit report       severity: 'high',
+22 silly audit report       vulnerable_versions: '<=3.4.1',
+22 silly audit report       cwe: [Array],
+22 silly audit report       cvss: [Object]
+22 silly audit report     }
+22 silly audit report   ],
+22 silly audit report   lodash: [
+22 silly audit report     {
+22 silly audit report       id: 1112455,
+22 silly audit report       url: 'https://github.com/advisories/GHSA-xxjr-mmjv-4gpg',
+22 silly audit report       title: 'Lodash has Prototype Pollution Vulnerability in `_.unset` and `_.omit` functions',
+22 silly audit report       severity: 'moderate',
+22 silly audit report       vulnerable_versions: '>=4.0.0 <=4.17.22',
+22 silly audit report       cwe: [Array],
+22 silly audit report       cvss: [Object]
+22 silly audit report     }
+22 silly audit report   ],
+22 silly audit report   minimatch: [
+22 silly audit report     {
+22 silly audit report       id: 1113459,
+22 silly audit report       url: 'https://github.com/advisories/GHSA-3ppc-4f35-3m26',
+22 silly audit report       title: 'minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern',
+22 silly audit report       severity: 'high',
+22 silly audit report       vulnerable_versions: '<3.1.3',
+22 silly audit report       cwe: [Array],
+22 silly audit report       cvss: [Object]
+22 silly audit report     },
+22 silly audit report     {
+22 silly audit report       id: 1113538,
+22 silly audit report       url: 'https://github.com/advisories/GHSA-7r86-cg39-jmmj',
+22 silly audit report       title: 'minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments',
+22 silly audit report       severity: 'high',
+22 silly audit report       vulnerable_versions: '<3.1.3',
+22 silly audit report       cwe: [Array],
+22 silly audit report       cvss: [Object]
+22 silly audit report     },
+22 silly audit report     {
+22 silly audit report       id: 1113546,
+22 silly audit report       url: 'https://github.com/advisories/GHSA-23c5-xmqv-rm74',
+22 silly audit report       title: 'minimatch ReDoS: nested *() extglobs generate catastrophically backtracking regular expressions',
+22 silly audit report       severity: 'high',
+22 silly audit report       vulnerable_versions: '<3.1.4',
+22 silly audit report       cwe: [Array],
+22 silly audit report       cvss: [Object]
+22 silly audit report     }
+22 silly audit report   ],
+22 silly audit report   undici: [
+22 silly audit report     {
+22 silly audit report       id: 1112496,
+22 silly audit report       url: 'https://github.com/advisories/GHSA-g9mf-h72j-4rw9',
+22 silly audit report       title: 'Undici has an unbounded decompression chain in HTTP responses on Node.js Fetch API via Content-Encoding leads to resource exhaustion',
+22 silly audit report       severity: 'moderate',
+22 silly audit report       vulnerable_versions: '<6.23.0',
+22 silly audit report       cwe: [Array],
+22 silly audit report       cvss: [Object]
+22 silly audit report     },
+22 silly audit report     {
+22 silly audit report       id: 1114592,
+22 silly audit report       url: 'https://github.com/advisories/GHSA-f269-vfmq-vjvj',
+22 silly audit report       title: 'Undici: Malicious WebSocket 64-bit length overflows parser and crashes the client',
+22 silly audit report       severity: 'high',
+22 silly audit report       vulnerable_versions: '>=6.0.0 <6.24.0',
+22 silly audit report       cwe: [Array],
+22 silly audit report       cvss: [Object]
+22 silly audit report     },
+22 silly audit report     {
+22 silly audit report       id: 1114594,
+22 silly audit report       url: 'https://github.com/advisories/GHSA-2mjp-6q6p-2qxm',
+22 silly audit report       title: 'Undici has an HTTP Request/Response Smuggling issue',
+22 silly audit report       severity: 'moderate',
+22 silly audit report       vulnerable_versions: '<6.24.0',
+22 silly audit report       cwe: [Array],
+22 silly audit report       cvss: [Object]
+22 silly audit report     },
+22 silly audit report     {
+22 silly audit report       id: 1114638,
+22 silly audit report       url: 'https://github.com/advisories/GHSA-vrm6-8vpv-qv8q',
+22 silly audit report       title: 'Undici has Unbounded Memory Consumption in WebSocket permessage-deflate Decompression',
+22 silly audit report       severity: 'high',
+22 silly audit report       vulnerable_versions: '<6.24.0',
+22 silly audit report       cwe: [Array],
+22 silly audit report       cvss: [Object]
+22 silly audit report     },
+22 silly audit report     {
+22 silly audit report       id: 1114640,
+22 silly audit report       url: 'https://github.com/advisories/GHSA-v9p9-hfj2-hcw8',
+22 silly audit report       title: 'Undici has Unhandled Exception in WebSocket Client Due to Invalid server_max_window_bits Validation',
+22 silly audit report       severity: 'high',
+22 silly audit report       vulnerable_versions: '<6.24.0',
+22 silly audit report       cwe: [Array],
+22 silly audit report       cvss: [Object]
+22 silly audit report     },
+22 silly audit report     {
+22 silly audit report       id: 1114642,
+22 silly audit report       url: 'https://github.com/advisories/GHSA-4992-7rv2-5pvq',
+22 silly audit report       title: 'Undici has CRLF Injection in undici via `upgrade` option',
+22 silly audit report       severity: 'moderate',
+22 silly audit report       vulnerable_versions: '<6.24.0',
+22 silly audit report       cwe: [Array],
+22 silly audit report       cvss: [Object]
+22 silly audit report     }
+22 silly audit report   ]
+22 silly audit report }
+23 silly packumentCache corgi:https://registry.npmjs.org/ajv cache-miss
+24 silly packumentCache corgi:https://registry.npmjs.org/flatted cache-miss
+25 silly packumentCache corgi:https://registry.npmjs.org/lodash cache-miss
+26 silly packumentCache corgi:https://registry.npmjs.org/minimatch cache-miss
+27 silly packumentCache corgi:https://registry.npmjs.org/undici cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/ajv 460ms (cache revalidated)
+29 silly packumentCache corgi:https://registry.npmjs.org/ajv set size:464537 disposed:false
+30 http fetch GET 200 https://registry.npmjs.org/flatted 587ms (cache revalidated)
+31 silly packumentCache corgi:https://registry.npmjs.org/flatted set size:57858 disposed:false
+32 http fetch GET 200 https://registry.npmjs.org/minimatch 721ms (cache revalidated)
+33 silly packumentCache corgi:https://registry.npmjs.org/minimatch set size:167610 disposed:false
+34 http fetch GET 200 https://registry.npmjs.org/lodash 752ms (cache revalidated)
+35 silly packumentCache corgi:https://registry.npmjs.org/lodash set size:68481 disposed:false
+36 http fetch GET 200 https://registry.npmjs.org/undici 888ms (cache updated)
+37 silly packumentCache corgi:https://registry.npmjs.org/undici set size:undefined disposed:false
+38 silly packumentCache corgi:https://registry.npmjs.org/@eslint%2feslintrc cache-miss
+39 silly packumentCache corgi:https://registry.npmjs.org/eslint cache-miss
+40 http fetch GET 200 https://registry.npmjs.org/@eslint%2feslintrc 174ms (cache revalidated)
+41 silly packumentCache corgi:https://registry.npmjs.org/@eslint%2feslintrc set size:83205 disposed:false
+42 http fetch GET 200 https://registry.npmjs.org/eslint 514ms (cache updated)
+43 silly packumentCache corgi:https://registry.npmjs.org/eslint set size:undefined disposed:false
+44 silly packumentCache corgi:https://registry.npmjs.org/flat-cache cache-miss
+45 http fetch GET 200 https://registry.npmjs.org/flat-cache 177ms (cache revalidated)
+46 silly packumentCache corgi:https://registry.npmjs.org/flat-cache set size:49632 disposed:false
+47 silly packumentCache corgi:https://registry.npmjs.org/@sapphire%2fshapeshift cache-miss
+48 http fetch GET 200 https://registry.npmjs.org/@sapphire%2fshapeshift 303ms (cache revalidated)
+49 silly packumentCache corgi:https://registry.npmjs.org/@sapphire%2fshapeshift set size:1051334 disposed:false
+50 silly packumentCache corgi:https://registry.npmjs.org/@eslint%2fconfig-array cache-miss
+51 http fetch GET 200 https://registry.npmjs.org/@eslint%2fconfig-array 252ms (cache revalidated)
+52 silly packumentCache corgi:https://registry.npmjs.org/@eslint%2fconfig-array set size:17196 disposed:false
+53 silly packumentCache corgi:https://registry.npmjs.org/@discordjs%2frest cache-miss
+54 silly packumentCache corgi:https://registry.npmjs.org/discord.js cache-miss
+55 http fetch GET 200 https://registry.npmjs.org/discord.js 309ms (cache revalidated)
+56 silly packumentCache corgi:https://registry.npmjs.org/discord.js set size:4015921 disposed:false
+57 http fetch GET 200 https://registry.npmjs.org/@discordjs%2frest 1678ms (cache updated)
+58 silly packumentCache corgi:https://registry.npmjs.org/@discordjs%2frest set size:undefined disposed:false
+59 silly packumentCache corgi:https://registry.npmjs.org/@discordjs%2fws cache-miss
+60 http fetch GET 200 https://registry.npmjs.org/@discordjs%2fws 7357ms (cache revalidated)
+61 silly packumentCache corgi:https://registry.npmjs.org/@discordjs%2fws set size:2699707 disposed:false
+62 verbose cwd /home/container
+63 verbose os Linux 6.12.48+deb13-amd64
+64 verbose node v22.22.1
+65 verbose npm  v11.12.0
+66 verbose exit 0
+67 info ok
