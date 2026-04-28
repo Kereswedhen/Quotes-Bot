@@ -7,7 +7,7 @@ const solitaryConfinement = '1322320398603391059';
 const Alex = '1052255855518695554';
 
 client.once(Events.ClientReady, (readyClient) => {
-	console.log(`Ready! Logged in as ${readyClient.user.tag}`);
+	console.log(`${readyClient.user.displayName} is ready!`);
 });
 
 
