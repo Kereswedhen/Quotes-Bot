@@ -47,7 +47,7 @@ client.on(Events.MessageCreate, async (message) => {
 				message.reply("test");
 			}
 		} catch (err) {
-			console.error('Failed to add reactions:', err);
+			console.error('Failed to resend clip:', err);
 		}
 	}
 });
